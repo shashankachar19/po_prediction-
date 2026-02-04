@@ -15,13 +15,12 @@ A modern Streamlit app that includes:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1. Install dependencies
-```bash
+1. Install dependencies
 pip install -r requirements.txt
 
-### 2. create the file using terminal
+## 2. create the file using terminal
 .streamlit/secrets.toml
 
 ### 3. Add this into the file 
@@ -41,7 +40,9 @@ streamlit run app.py
 ├── runtime.txt           # Python version for Streamlit Cloud
 └── .streamlit/
     └── config.toml
-### Notes
+
+    
+## Notes
 Data is session-only (not saved after refresh)
 Chat assistant uses your session history for context
 
