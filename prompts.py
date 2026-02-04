@@ -15,7 +15,8 @@ STRICT OUTPUT FORMAT:
   "po_description": "<original PO description>",
   "L1": "<value or Not sure>",
   "L2": "<value or Not sure>",
-  "L3": "<value or Not sure>"
+  "L3": "<value or Not sure>",
+  "confidence": "<number between 0 and 1 or Not sure>"
 }}
 
 TAXONOMY:
@@ -33,7 +34,8 @@ Output:
   "po_description": "DocuSign Inc - eSignature Enterprise Pro Subscription",
   "L1": "IT",
   "L2": "Software",
-  "L3": "Subscription"
+  "L3": "Subscription",
+  "confidence": 0.91
 }}
 
 Example 2:
@@ -46,7 +48,8 @@ Output:
   "po_description": "Payment for employee health insurance premium",
   "L1": "Banking & Financial",
   "L2": "Insurance",
-  "L3": "Not sure"
+  "L3": "Not sure",
+  "confidence": 0.63
 }}
 
 Example 3:
@@ -59,7 +62,8 @@ Output:
   "po_description": "Cleaning services for office premises - March",
   "L1": "Facilities",
   "L2": "Janitorial Services",
-  "L3": "Not sure"
+  "L3": "Not sure",
+  "confidence": 0.79
 }}
 
 Example 4:
@@ -72,7 +76,8 @@ Output:
   "po_description": "Flight ticket for business travel",
   "L1": "T&E",
   "L2": "Air",
-  "L3": "Not sure"
+  "L3": "Not sure",
+  "confidence": 0.74
 }}
 
 END OF EXAMPLES
