@@ -17,16 +17,16 @@ A modern Streamlit app that includes:
 
 ## Getting Started
 
-1. Install dependencies
+## 1. Install dependencies
 pip install -r requirements.txt
 
 ## 2. create the file using terminal
 .streamlit/secrets.toml
 
-### 3. Add this into the file 
+## 3. Add this into the file 
 GROQ_API_KEY = "your_groq_key_here"
 
-### 4. To run the project use this command 
+## 4. To run the project use this command 
 streamlit run app.py
 
 
